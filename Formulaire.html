@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <link rel="stylesheet" href="style.css">
+        <title>formulaire Avancé</title>
+    </head>
+    <body>
+        <h1>Finformulaire</h1>
+        <form method="post" action="traitement.php">
+        <fieldset>
+            <legend>Vos coordonnés</legend>
+            <label>Votre prénom</label><input type="text" name="prenom" required autofocus/><br>
+            <label>Votre nom</label><input type="text" name="nom"/><br>
+            <label>téléphine</label><input type="text" name="telephone"><br>
+        </fieldset>
+            <p>
+         <fieldset>
+             <legend>Souhait</legend>
+            <p>Quel est votre souhait</p>
+            <input type="radio" name="choix" value="riche"/>
+            <label>Etre riche</label><br>
+            <input type="radio" name="choix" value="sante"/>
+            <label>Etre en bonne santé</label><br>
+            <input type="radio" name="choix" value="celebre"/>
+            <label>Etre célébre</label>
+        </fieldset>
+            <input type="submit" value="Envoyer"/>
+            <input type="reset" name="Annuler"/>    
+    
+        </p>
+        </form>
+        <!--h1>FormAvancé</h1>
+        <form method="post" action="traitement.php">
+            <p> Cochez les aliments que vous aimez.</p>
+            <input type="checkbox" name="frites" checked /><label>Frites</label><br>
+            <input type="checkbox" name="epinards"/><label>Epinards</label><br>
+            <input type="checkbox" name="huitres"/><label>Huitres</label>
+            
+            <p>Quel est votre genre ?</p>
+            
+            
+           
+            <p>
+            <input type="radio" name="genre" value="homme"/><label>HOMME</label><br>
+            </p>
+            <p>
+            <input type="radio" name="genre" value="femme"/><label>FEMME</label>
+            </p>
+            
+            <p>Sur quel continent habitez-vous?</p>
+            
+            <p>
+             <input type="radio" name="continet" value ="afrique"><label>Afrique</label>
+             <input type="radio" name="continet" value ="europe"><label>Europe</label>
+             <input type="radio" name="continet" value ="oceanie"><label>Océanie</label>
+             <input type="radio" name="continet" value ="Amérique"><label>Amérique</label>
+             <input type="radio" name="continet" value ="asie"><label>Asie</label>
+            </p>
+            <p>Dans quel pays habitez-vous?</p>
+            <p>
+                <select name="pays">
+            <optgroup label="Afrique">
+                <option value="sen">Sénégal</option>
+                <option value="gha">Ghana</option>
+            </optgroup>
+            <optgroup label="Europe">
+                <option value="fr">France</option>
+                <option value="es">Espagne</option>
+            </optgroup>
+                <option value="france">france</option>
+                <option value="allemange">ALLEMAGNE</option>
+                <option value="Espagne">Espagne </option>
+                </select>
+            </p>
+        </form-->
+          <!--h1>Formolaire2</h1>
+          <form method="post" action="contacte.php">
+                <p><label for="Login">Identifiant</label>
+                    <input type="text" name="Login" id="Login" size="30"
+                       maxlength="10" placeholder="numéro , Email"/></p>
+
+                <p><label for="Mot de passe">mot de passe</label>
+                    <input type="password" name="Mot de passe" id="Mot de passe" size="30"
+                       maxlength="10" placeholder="Mot de passe"/></p>
+
+                <p><label for="message">Que pensez-vous de nos produits ?</label>
+                    <textarea cols="8" rows="10">
+                        Vos produits sont top
+                    </textarea>
+                </p>
+                <p>
+                    <label for="mail">Entrer Votre Email</label>
+                    <input type="email" id="mail" name="mail" placeholder="kjg@gmail.com">
+                </p>
+                <p>
+                     <label for="url">Entrer votre adreese web</label>
+                     <input type="url" id="url"   name="url" placeholder="votre site web">
+                </p>
+                <p>
+                    <label for="tel">Votre numéro</label>
+                    <input type="tel" name="tel" id="tel" placeholder="numero de telephone"/>
+                </p>
+                <p>
+                    <label for="nombre">Votre age</label>
+                    <input type="number" name="age" id="nombre" min="0" max="10" step="2"/>
+                </p>
+                <p>
+                    <label for="">votre chiffre porte bonheur</label>
+                    <input type="range" name="bonheur" min="0" max="10"/>
+                </p>
+                <p>
+                    <label>Dans quel Couleur voulez-vous voir le site ?</label>
+                    <input type="color" name="couleur"/>
+                </p>
+                <p>
+                    <label>Votre de Naissance</label>
+                <input type="date" name="dateNaissance"/>
+                </p>
+                <p>
+                    <label>Recherche produits</label>
+                    <input type="search" name="Recherche" id=""/>
+                </p>
+                <p><input type="submit" value="envoyer">
+                </p>
+
+          </form-->
+            <!--h1>Les formulaires 1</h1>
+        <form method="post" action="traitement.php">
+            <p><label for="prenom">Votre Prénom</label><input type="text" name="prenom" id="prenom" placeholder="votre prenom"/></p>
+            <p><label for="nom">Votre Nom</label><input type="nom" id="nom" placeholder="entrer votre nom"/></p>
+            <p><label for="adresse">Votre Adresse</label><input type="adresse" id="adresse" size="10" maxlength="10" placeholder="adresse"/></p>
+            <p><label for="telephone">Votre Numéro</label><input type="telephone" id="telephone" placeholder="votre numero"/></p>
+        </form-->
+    </body>
+</html>
